@@ -1,14 +1,14 @@
 {
-  "server": "irc.pepperbacks.com",
-  "port": 6667,
-  "ssl": false,
-  "nick": "ssfdre38-bot",
-  "userName": "ssfdre38-bot",
-  "realName": "Bot for ssfdre38",
-  "channels": ["#test"],
+  "server": "irc.libera.chat",
+  "port": 6697,
+  "ssl": true,
+  "nick": "MyAwesomeBot",
+  "userName": "awesomebot",
+  "realName": "My Awesome IRC Bot",
+  "channels": ["#bottest"],
   "autoRejoin": true,
   "autoConnect": true,
-  "secure": false,
+  "secure": true,
   "selfSigned": false,
   "certExpired": false,
   "floodProtection": true,
@@ -17,6 +17,5 @@
   "stripColors": false,
   "channelPrefixes": "&#",
   "messageSplit": 512,
-  "encoding": "utf8",
-  "showErrors": false
+  "encoding": "utf8"
 }
